@@ -25,6 +25,9 @@ persist.vendor.ims.disableQXDMLogs=1
 media.settings.xml=/vendor/etc/media_profiles_vendor.xml
 ro.media.recorder-max-base-layer-fps=60
 
+# FUSE
+persist.sys.fuse.passthrough.enable=true
+
 # Netflix
 ro.netflix.bsp_rev=Q875-32408-1
 
