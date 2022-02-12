@@ -390,4 +390,7 @@
    <!-- Pocket Lock -->
    <bool name="config_pocketModeSupported">false</bool>
 
+    <!-- Doze: check proximity sensor before pulsing? -->
+    <bool name="doze_proximity_check_before_pulse">false</bool>
+
 </resources>
