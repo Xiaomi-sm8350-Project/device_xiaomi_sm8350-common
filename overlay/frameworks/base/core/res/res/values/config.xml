@@ -395,4 +395,7 @@
     <!-- Doze: check proximity sensor before pulsing? -->
     <bool name="doze_proximity_check_before_pulse">false</bool>
 
+  <!-- Path to fast charging status file to detect whether an oem fast charger is active -->
+  <string name="config_oemFastChargerStatusPath" translatable="false">/sys/class/qcom-battery/fastchg_mode</string>
+
 </resources>
