@@ -81,7 +81,7 @@ TARGET_USES_GRALLOC4 := true
 TARGET_USES_HWC2 := true
 
 # Filesystem
-TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/config.fs
+TARGET_FS_CONFIG_GEN := $(COMMON_PATH)/configs/config.fs
 
 # Kernel
 BOARD_KERNEL_BASE := 0x00000000
@@ -121,11 +121,12 @@ BOOT_KERNEL_MODULES := \
 BOARD_VENDOR_RAMDISK_RECOVERY_KERNEL_MODULES_LOAD := $(BOOT_KERNEL_MODULES)
 
 # HIDL
-DEVICE_MATRIX_FILE := $(COMMON_PATH)/compatibility_matrix.xml
+DEVICE_MATRIX_FILE := $(COMMON_PATH)/configs/hidl/compatibility_matrix.xml
 DEVICE_FRAMEWORK_COMPATIBILITY_MATRIX_FILE := \
-    $(COMMON_PATH)/device_framework_matrix.xml \
+    $(COMMON_PATH)/configs/hidl/device_framework_matrix.xml \
     vendor/lineage/config/device_framework_matrix.xml
-DEVICE_MANIFEST_FILE := $(COMMON_PATH)/manifest.xml
+
+DEVICE_MANIFEST_FILE := $(COMMON_PATH)/configs/hidl/manifest.xml
 
 # Media
 TARGET_USES_ION := true
