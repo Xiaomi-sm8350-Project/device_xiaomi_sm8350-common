@@ -249,6 +249,8 @@ PRODUCT_COPY_FILES += \
     frameworks/native/data/etc/android.hardware.consumerir.xml:$(TARGET_COPY_OUT_VENDOR)/etc/permissions/android.hardware.consumerir.xml
 
 # Media
+$(call inherit-product-if-exists, hardware/qcom-caf/sm8350//media/product.mk)
+
 PRODUCT_PACKAGES += \
     libmm-omxcore \
     libOmxAacEnc \
