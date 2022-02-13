@@ -261,7 +261,8 @@ PRODUCT_PACKAGES += \
     libOmxVenc \
     libstagefrighthw \
     libstagefrighthw_omx \
-    libstagefrighthw_foundation 
+    libstagefrighthw_foundation \
+    libstagefright_softomx.vendor \
 
 PRODUCT_COPY_FILES += \
     $(call find-copy-subdir-files,*,$(LOCAL_PATH)/configs/media/,$(TARGET_COPY_OUT_VENDOR)/etc)
@@ -280,8 +281,7 @@ PRODUCT_COPY_FILES += \
 # Minijail
 PRODUCT_PACKAGES += \
     libavservices_minijail \
-    libavservices_minijail.vendor \
-    libavservices_minijail_vendor
+    libavservices_minijail.vendor
 
 # Network
 PRODUCT_COPY_FILES += \
