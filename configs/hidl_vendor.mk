@@ -73,7 +73,3 @@ PRODUCT_PACKAGES += \
 # Servicetracker
 PRODUCT_PACKAGES += \
     vendor.qti.hardware.servicetracker@1.2.vendor
-
-# SPU
-PRODUCT_PACKAGES += \
-    android.hardware.authsecret@1.0.vendor
