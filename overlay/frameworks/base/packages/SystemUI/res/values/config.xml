@@ -31,4 +31,7 @@
 
     <!-- Indicates whether device has a power button fingerprint sensor. -->
     <bool name="config_is_powerbutton_fps" translatable="false">true</bool>
+
+    <!-- Doze: check proximity sensor before pulsing? -->
+    <bool name="doze_proximity_check_before_pulse">false</bool>
 </resources>
