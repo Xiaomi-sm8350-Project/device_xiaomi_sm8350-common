@@ -26,9 +26,6 @@ ro.media.recorder-max-base-layer-fps=60
 # FUSE
 persist.sys.fuse.passthrough.enable=true
 
-# Netflix
-ro.netflix.bsp_rev=Q875-32408-1
-
 # QC framework value-adds
 ro.vendor.qti.va_aosp.support=1
 
