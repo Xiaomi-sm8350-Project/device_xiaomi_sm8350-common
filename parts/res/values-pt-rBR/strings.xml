@@ -2,4 +2,7 @@
 
 <resources>
 
+     <!-- FPS Counter -->
+     <string name="fps_info_title">Contador FPS</string>
+
 </resources>
